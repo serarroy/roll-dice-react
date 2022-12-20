@@ -1,0 +1,17 @@
+
+.dice-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.total-score{
+    margin-top: 200px;
+    font-family: 'Frijole', cursive;
+    font-weight: 100;
+}

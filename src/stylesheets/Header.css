@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+.header{
+    font-family: 'Frijole', cursive;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}

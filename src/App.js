@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import ChoosePanel from './components/ChoosePanel';
+import Header from './components/Header';
+import RollDice from './components/RollDice';
 
 function App() {
+  const [numberDices, setNumberDices] = useState(1);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ChoosePanel setNumberDices={setNumberDices}/>
+      <RollDice numberDices={numberDices}/>
     </div>
   );
 }

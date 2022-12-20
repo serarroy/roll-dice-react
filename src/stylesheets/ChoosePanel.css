@@ -1,0 +1,26 @@
+.title{
+    font-family: 'Frijole', cursive;
+    text-align: center;
+}
+
+.choose-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.die-panel{
+    text-align: center;
+}
+
+.selection{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Frijole', cursive;
+}
+
+.selection:hover{
+    cursor: pointer;
+    color: white;
+}
