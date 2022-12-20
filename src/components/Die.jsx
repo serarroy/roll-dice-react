@@ -5,7 +5,7 @@ import '../stylesheets/Die.css'
 function Die( {face} ) {
     return (
         <div>
-            {<i className={`die fas fa-dice-${face}`} />}
+            <i className={`die fas fa-dice-${face}`} />
         </div>
     )
 }
